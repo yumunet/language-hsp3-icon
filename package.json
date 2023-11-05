@@ -1,0 +1,36 @@
+{
+  "name": "language-hsp3-icon",
+  "displayName": "language-hsp3-icon",
+  "description": "Icons for language-hsp3",
+  "version": "0.0.1",
+  "publisher": "yumu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yumunet/language-hsp3-icon.git"
+  },
+  "icon": "hsp.png",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hsp3",
+        "icon": {
+          "dark": "./hsp.png",
+          "light": "./hsp.png"
+        }
+      },
+      {
+        "id": "hs",
+        "icon": {
+          "dark": "./hs.png",
+          "light": "./hs.png"
+        }
+      }
+    ]
+  }
+}
